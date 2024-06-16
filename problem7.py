@@ -1,7 +1,9 @@
 def swap(a, b):
     # Write your code here to swap the values of a and b
-    pass
-
+    c = a
+    a = b
+    b = c
+    return a,b
 
 # Example usage:
 a = 5
